@@ -2,7 +2,8 @@
 
 namespace PII_Game_Of_Life
 {
-    //Esta clase va a tener la responsabilidad de procesar el tablero para obtener la siguiente generacion
+    //Esta clase va a tener la responsabilidad de procesar el objeto tablero para que contenga la siguiente generacion
+    //Colabora con Tablero
     public class NuevaGeneracion
     {
         private static Tablero tableroClon = new Tablero();

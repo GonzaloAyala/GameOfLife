@@ -2,17 +2,13 @@ using System;
 
 namespace PII_Game_Of_Life
 {
-    //Esta clase va a tener la responsabilidad de contener un tablero
+    //Esta clase va a tener la responsabilidad de crear objetos Tablero que contienen la información del tablero
+    //Colabora con TraerTablero
     public class Tablero
     {
       public Tablero()
       {
         this.tablero = TraerTablero.CargarTablero(); 
-      }
-
-      ~Tablero()
-      {
-        Console.WriteLine("Se me rompió un tablero.");
       }
 
       private bool[,] tablero {get; set;}

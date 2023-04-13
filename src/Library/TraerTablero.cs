@@ -3,7 +3,7 @@ using System.IO;
 
 namespace PII_Game_Of_Life
 {
-    // Esta clase tiene la responsabilidad de traer el tablero y comunicarlo
+    // Esta clase tiene la responsabilidad de generar un array de booleanos a partir del archivo de texto inicial
     public class TraerTablero
     {
         static public bool[,] CargarTablero() 

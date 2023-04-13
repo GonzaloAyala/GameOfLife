@@ -5,6 +5,7 @@ using System.Threading;
 namespace PII_Game_Of_Life
 {
     //Esta clase tiene la responsabilidad de imprimir el tablero
+    //Colabora con Tablero 
     public class ImprimirTablero
     {
         public static void printTablero(Tablero tab)
